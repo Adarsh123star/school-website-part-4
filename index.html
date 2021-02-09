@@ -1,0 +1,276 @@
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Delhi Public School</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#new">What's New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on school@gmail.com  ***
+    </marquee>
+</div>
+
+    <video src="https://youtu.be/ScWbdSUgTIg"></video>
+  
+<div class="container">
+	
+  <div class="page-header" id="campus_life">
+  		<h2 class="text-capitalize">Campus Life</h2>
+
+  <div class="row">
+           
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="https://qph.fs.quoracdn.net/main-qimg-fc9cd9c9579d3cfcd68091f427def26a.webp">
+      <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+      <hr >
+      
+    </div>
+    <div  class="travel_mainDiv"> 
+      <img class="img-responsive"  src="data:image/jpeg;base64,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">
+      <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+      <hr >
+      
+    </div>
+  </div>
+</div>
+	<div class="page-header" id="achievements">
+  		<h2 class="text-capitalize">school achievements</h2>
+  </div>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1" >
+    SANSKRIT PRATIBHA
+ <i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement1" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+	  		 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-success text-left text-capitalize">• NINE STUDENTS OF CLASS X WERE AWARDED ‘SANSKRIT PRATIBHA
+PURUSKAAR’ BY DELHI SANSKRIT ACADEMY ON 2ND MAY 2018.
+      </h5>
+		  
+	  </div>
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2" >
+    EDUCATION WORLD AWARD<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="school_achievement2" class="collapse">
+	 
+   <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+  		
+  	</div>
+
+  	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+      <h5 class="text-success text-left text-capitalize">• EDUCATION WORLD AWARDED RANK 5 TO DPS VASANT KUNJ AT THE
+NATIONAL LEVEL, RANK 3 AT THE DELHI NCR LEVEL AND RANK 3 AT THE
+DELHI LEVEL IN THE DAY-CUM-BOARDING SCHOOLS CATEGORY.
+      </h5>• EDUCATION WORLD AWARDED RANK 5 TO DPS VASANT KUNJ AT THE
+NATIONAL LEVEL, RANK 3 AT THE DELHI NCR LEVEL AND RANK 3 AT THE
+DELHI LEVEL IN THE DAY-CUM-BOARDING SCHOOLS CATEGORY.
+      
+  	</div>
+  </div>
+
+
+
+  
+
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+      <h2 class="text-capitalize ">What's New</h2>
+  </div>
+
+  <ul class="list-group">
+
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+      <h4>MATHEMAGINATION - MATHS WEEK JR. 2020</h4>
+      <img src="https://live.staticflickr.com/2110/2196260331_c6592e8dab_c.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The Junior School of DPS Vasant Kunj celebrated Maths Week – ‘Mathemagination’ which was organized by the Maths Department for the students of Classes III, IV and V from 27th January, 2020 to 29th January, 2020. The students excitedly took part in various activities and competitions which were meticulously planned by the teachers of the Maths Department. On 
+
+Day 1, the students of Class V participated in the Intra Class Paper Bag Making Activity by  using waste materials  and came up with beautiful creations. Class IV showed their creative side in ‘Polygon Art’ Activity wherein the students used cut outs of different shapes to form a picture. The students of Class III were delighted to watch a movie on how to overcome fear of Maths. 
+
+Day 2, was full of excitement as the students of Class V exhibited their games based on mathematical concepts. The exhibition also showcased the models on ‘String Art’ and ‘Straw Art’ which were made by the students  of Class IV. 
+
+Intersection Quizzes organized for the students of Classes III and IV were enjoyed by both the children and the teachers. The students of Class V brought together their culinary skills, creativity  and subject knowledge by participating in the Inter Section Sumptuous Shapes Competition. They designed beautiful patterns using dry edible items. 
+
+The week culminated with an Intra Class Activity – Origami Art for the students of Class III, a movie for Class IV and an Intra Class Activity ‘Tangy Tangrams’ for Class V. 
+
+The happiness and excitement shown by the children while participating in these activities was the best reward for their teachers.
+
+ </p>
+     </li>
+
+    
+</ul>
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+      <h2 class="text-capitalize ">Our Alumini</h2>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+    <img src="https://www.sinceindependence.com/wp-content/uploads/2019/10/th-2-3.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Aditya Thackeray</p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni1">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Aditya Thackeray</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://www.sinceindependence.com/wp-content/uploads/2019/10/th-2-3.jpg" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian Politician serving as Cabinet Minister of Tourism and Environment Government of Maharashtra<br>
+          <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Vidya_Balan_promoting_Mission_Mangal.jpg" class="img-responsive">
+    <hr >
+   <p class="text-primary">Vidya Balan</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni2">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Vidya Balan</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Vidya_Balan_promoting_Mission_Mangal.jpg" class="img-responsive img_modal">
+          <p class="p_modal">Vidya Balan (born 1 January 1979) is an Indian actress<br>
+          <a href="https://en.wikipedia.org/wiki/Vidya_Balan"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+    <img src="https://www.celebrityborn.com/admin/assets/images/people/flbKIKCx6OE0eLgYBukz_2016_11_21.jpg" class="img-responsive">
+    <hr >
+    <p class="text-primary">Mukesh Ambani</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni3">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Mukesh Ambani</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://www.celebrityborn.com/admin/assets/images/people/flbKIKCx6OE0eLgYBukz_2016_11_21.jpg" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian billionaire business magnate, and the chairman, managing director, and largest shareholder of Reliance Industries Ltd. <br>
+          <a href="https://en.wikipedia.org/wiki/Mukesh_Ambani"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive">
+    <hr >
+    <p class="text-primary">Rajdeep Sardesai</p>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="school_alumni4">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content"  >
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Rajdeep Sardesai</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive img_modal">
+          <p class="p_modal">He is an Indian news anchor and author.<br>
+          <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+    <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+    </div>
+      <div id="details">
+        <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3>Principal Name: </h3>
+        <h4>Bindhu Sheghal </h4>
+            <div class="contact_1" >
+               <a href="mailto:school@gmail.com?Subject=Hi">
+                   <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a> 
+               <a href="#"> 
+                   <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;schoolId</h5>
+                </a> 
+                <a href="#"> 
+                  <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;9916001600</h5>
+               </a> 
+            </div>
+          </div>
+  </div>
+  <div id="footer"></div>
+
+</body>
+</html>
